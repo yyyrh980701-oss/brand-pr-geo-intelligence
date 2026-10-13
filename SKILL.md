@@ -14,7 +14,7 @@ description: |
   "GEO", "SEO", "AI visibility", "KOL", "competitor analysis".
 ---
 
-# 📡 Brand PR GEO Intelligence · 清洁分享版
+# 📡 Brand PR GEO Intelligence
 
 **定位**：品牌 PR 的 GEO/SEO、AI 可见度、舆情巡检、KOL 推荐、行业观点、活动策划、竞品分析一体化工作流。
 **框架**：E-E-A-T + V 五维体系 · **交付引擎**：证据快照 → 诊断/策略内容 → 白话化带图 PDF（HTML 可选）
