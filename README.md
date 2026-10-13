@@ -1,4 +1,4 @@
-# Brand PR GEO Intelligence · 清洁分享版
+# Brand PR GEO Intelligence
 
 品牌 PR 的 GEO/SEO、AI 可见度、舆情巡检、KOL 推荐、竞品分析一体化 skill。
 基于 E-E-A-T + V 五维评估框架，多租户数据物理隔离，追加式落盘 + 证据硬卡。
