@@ -1,0 +1,26 @@
+# 租户注册表 —— 只有列在这里的 slug 才允许写入数据。
+# data_ledger.py 会做白名单校验，未注册的租户直接 raise TenantViolation。
+# 每次任务开始前必须确认服务对象（见 SKILL.md 第 0 步）。
+#
+# 📦 分享版为空。首次使用请取消下方示例的注释并填写，
+#    或直接贴一个官网 URL，走模块1 的 10 道题现场建档后回填。
+
+data_root: ~/geo-agent-data   # 可用环境变量 GEO_AGENT_DATA_ROOT 覆盖
+
+tenants: []
+
+# ── 填写示例（复制到 tenants: 下面，去掉注释）──────────────
+#  - slug: yourbrand              # 目录名，小写英文，用作 data/{slug}/ 路径
+#    name: Your Brand Inc.
+#    ticker: ""                   # 上市代码，非上市留空
+#    site: https://example.com
+#    business: 一句话主营业务
+#    markets: []                  # 如 [CN] / [US] / [Overseas-EN]，对应 10 道题 Q2
+#    competitors:                 # 对应 Q5，确认后回填
+#      - { name: "", site: "", note: "" }
+#    subreddit_whitelist: []      # 对应 Q4 选 E；只监控显式列出的 subreddit，避免噪音与越界抓取
+#    track_x: false               # 对应 Q4 选 C
+#    slack_dm: ""                 # 对应 Q8；未配置则仅在对话中输出
+#    email: ""                    # 对应 Q8
+#    watch_list: []               # 该租户需要长期盯的行业风险
+#    notes: ""                    # 检索词踩坑、口径约定等实战笔记

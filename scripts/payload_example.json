@@ -1,0 +1,46 @@
+{
+  "tenant": "yourbrand",
+  "company": "Your Brand Inc.",
+  "date": "YYYY-MM-DD",
+  "mode": "快速诊断",
+  "mode_meta": {
+    "delivery": "白话化带图 PDF（HTML 可选）",
+    "positioning": "一次性摸清家底，先看现状"
+  },
+  "enabled_features": [
+    "E-E-A-T + V 雷达图",
+    "四引擎 AI 可见度快照",
+    "体检结论与红黄灯"
+  ],
+  "excluded_features": [
+    "完整 GEO/SEO 策略包",
+    "竞品横纵分析 PDF",
+    "KOL 分层名单",
+    "持续监测与告警投递"
+  ],
+  "scores": { "e1": 14, "e2": 12, "a": 10, "t": 13, "v": 11 },
+  "competitors": [
+    { "name": "Competitor A", "scores": { "e1": 12, "e2": 6, "a": 9, "t": 8, "v": 9 } }
+  ],
+  "ai_snapshots": [
+    { "engine": "engine-1",
+      "query": "best {your category} supplier",
+      "present": true,
+      "position": 3,
+      "cited_sources": ["example.com/blog", "competitor-a.com"],
+      "competitors": ["Competitor A"] }
+  ],
+  "keywords": [
+    { "tier": "L2", "term": "how to {core user intent}", "intent": "问题解决", "volume": "—", "rank": "未进入首页", "format": "FAQ / how-to 页面" }
+  ],
+  "actions": [
+    { "priority": "P1",
+      "title": "补齐 About 页团队实名与资质披露",
+      "detail": "提升 T 与 E₂ 两个维度，让 AI 引擎更容易引用品牌官方信息。",
+      "dim": "T", "owner": "TBD", "due": "T+14" }
+  ],
+  "evidence": [
+    { "source": "官网抓取", "status": "已采", "path": "snapshots/YYYY-MM-DD/site_yourbrand.md" },
+    { "source": "X/Twitter", "status": "未采", "path": "", "note": "本轮 Q4 未勾选 C" }
+  ]
+}
